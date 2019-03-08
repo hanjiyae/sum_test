@@ -1,5 +1,9 @@
 #pragma once
 
-int sum(int n);
+
+int sum(int a, int b)
+
+
+
 
 

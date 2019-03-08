@@ -1,14 +1,20 @@
 #includ "sum.h"
 
 
-int sum(int n) {
-	int res = 0;
+int sum (int a, int b)
+{
 	int i;
-	for (i=0; i<=n; i++;)
+	int sum=0;
+
+	for (i=a; i<=b; i++) 
 	{
-		res += i;
+		sum += i
 	}
-	return res;
+
+	return sum;
 }
+
+
+
 
 
